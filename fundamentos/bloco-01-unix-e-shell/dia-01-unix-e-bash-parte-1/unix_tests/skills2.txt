@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Firefox
+nano
+Vim
+Slack
+XFCE
