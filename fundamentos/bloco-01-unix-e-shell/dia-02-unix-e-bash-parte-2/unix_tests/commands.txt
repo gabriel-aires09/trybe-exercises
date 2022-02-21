@@ -1,0 +1,67 @@
+Parte I
+
+1) cd $HOME/Documents/trybe/unix_tests
+2) cat > skills2.txt
+3) cat >> skills2.txt
+4) wc -l skills.txt
+5) cat skills2.txt | sort | head -n 3 > top_skills.txt
+6) cat > phrases2.txt
+7) grep 'br' phrases2.txt | wc -l 
+8) grep 'br' -v phrases2.txt | wc -l
+9) cat >> phrases2.txt
+10) cat phrases2.txt countries.txt > bunch_of_things.txt
+11) cat phrases2.txt countries.txt | sort > bunch_of_things.txt
+
+Parte II
+
+1) cd $HOME/Documents/trybe/unkenlights.nlnix_tests
+3) chmod 666 bunch_of_things.txt 
+ls -l
+4) chmod -222 bunch_of_things.txt ou chmod 444 bunch_of_things
+ls -l
+5) chmod 644 bunch_of_ things.txt
+
+Parte III
+
+ps
+sleep 30 &
+ps
+kill 8304
+sleep 30
+jobs
+bg %1
+sleep 200 ; 100
+jpbs
+fg %1
+jobs
+bg %3
+kill %1 %2 %3
+
+Part IV
+
+sudo apt install cmatrix 
+cmatrix
+sudo apt install fortune
+fortune > fortune.txt
+man wc
+wc -w fortune.txt
+sudo apt install sl 
+sl
+sl -F
+sudo apt install cowsay
+cat fortune.txt | cowsay
+factor
+rev fortune.txt
+telnet towel.blinkenlights.nl
+
+
+
+
+
+
+
+
+
+
+
+
