@@ -86,7 +86,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: IntroduÃ§Ã£o - React
+##### Bloco 11: Introdução - React
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
@@ -122,7 +122,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-2: _React com Redux - Parte 1_
 - [ ] 16-3: _React com Redux - PrÃ¡tica_
 - [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sÃ­ncronos com React-Redux_
+- [ ] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -142,17 +142,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: IntroduÃ§Ã£o - Bancos de dados relacionais
+##### Bloco 20: Introdução - Bancos de dados relacionais
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _FunÃ§Ãµes mais usadas no SQL_
+- [ ] 21-1: _Funçes mais usadas no SQL_
 - [ ] 21-2: _Descomplicando JOINs e UNIONs_
 - [ ] 21-3: _Stored Routines & Subqueries_
 - [ ] 21-4: _[Projeto - Vocabulary Booster]()_
