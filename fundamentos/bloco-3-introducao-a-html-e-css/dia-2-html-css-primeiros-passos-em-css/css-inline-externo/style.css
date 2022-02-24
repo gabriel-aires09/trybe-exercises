@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    background-color: #282a36;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    color: green;
+    font-size: 2em;
+    text-decoration: underline;
+    line-height: 40px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    color: #ff79c6;
+
+  }
+
+  li {
+    color: #ffb86c;
+  }
+
+  #yellow {
+    background-color: yellow;
+  }
+
+  #red {
+    background-color: red;
+  }
+
+  #brown {
+    background-color: brown;
+  }
