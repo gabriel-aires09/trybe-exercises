@@ -1,0 +1,59 @@
+/* Vou tentar centralizar todas as imagens no documento
+* apenas com os comandos que conheço de css position
+*/
+
+h1 {
+  text-align: center;
+}
+
+/* Posicione o Mário acima do Goomba. ok */
+.super-mario {
+	width: 100px;
+  top: 100px;
+  left: 215px;
+  right: 400px;
+  position: relative;
+}
+
+.goomba {
+	width: 70px;
+  top: 200px;
+  left: 130px;
+  right: 400px;
+  position: relative;
+}
+
+.baloon {
+  z-index: 1;
+  width: 280px;
+  position: relative;
+  top: -200px;
+  left: 400px;
+  right: 500px;
+
+
+}
+
+/* Posicione a tag p para que fique dentro do balão de fala ok
+* position: relative;
+* top: 100px;
+* left: 40px;
+* right: 80px;
+* z-index: 2;
+*/
+.speach {
+	font-size: 18px;
+  z-index: 2;
+  position: relative;
+  top: -95px;
+  left: 430px;
+  right: 500px;
+}
+
+.bowser {
+	width: 200px;
+  position: relative;
+  top: 200px;
+  left: 500px;
+  right: 500px;
+}
