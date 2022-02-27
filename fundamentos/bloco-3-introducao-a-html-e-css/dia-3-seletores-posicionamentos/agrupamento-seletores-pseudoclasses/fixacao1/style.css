@@ -1,0 +1,12 @@
+.cursor:hover {
+    background-color: blueviolet;
+
+}
+
+.cursor:active{
+    font-family: JetBrainsMono, 'monospace';
+}
+
+ul, ol {
+    list-style: none;
+}
