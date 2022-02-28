@@ -6,7 +6,7 @@ ol li em strong { /* fiz isso para testar a hierarquia de classes */
   color: green;
 }
 
-ol li.impar {        /* Poderia ter feito com ol li.impar tbm */
+ol li.impar {        /* Poderia ter feito com li.impar tbm */
   text-transform: uppercase;
 }
 
@@ -27,7 +27,7 @@ li em {
   font-weight: bold;
 }
 
-ul.linguagens li:nth-of-type(-n+3) {
+ul.linguagens li:nth-of-type(-n+3) { /* preguica de utilizar nth-of-type(1), (2), (3) */
   color: blue;
 
 }
@@ -35,7 +35,7 @@ ul li.java {
   background-color: pink;
 }
 
-#stack:hover {
+#stack:hover { /* poderia ter utilizado 'href*=', mas quero pesquisar como funciona o comando antes. */
   color: orange;
 }
 
