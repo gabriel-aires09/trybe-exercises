@@ -1,9 +1,10 @@
-/*1. Faça cinco programas, um para cada operação aritmética básica. ok
+/* 1. Faça cinco programas, um para cada operação aritmética básica. ok
 PS: Eu fiz cada programa isoladamente em funcoes para ter menos bugs e futuros problemas.
-Gostaria de ter mais elegancia nos codigos e menos sujeira nos meus codigos, mas sou noob D:
+PS2: Eu repeti algumas variaveis, mas as que repeti coloquei como locais.
+PS3: Gostaria de ter mais elegancia e menos sujeira nos meus codigos, mas sou noob D:
 */
 
-//coloquei essas constates como variaveis globais para serem utilizadas em outros programas
+//coloquei essas constantes como variaveis globais para serem utilizadas em outros programas
 const a = 10;
 const b = 30;
 const c = 40;
@@ -30,7 +31,7 @@ function greaterThen() {
   }
 }
 
-/* Faça um programa que retorne o maior de três números. 
+/* 3. Faça um programa que retorne o maior de três números. 
 Defina no começo do programa três constantes com os valores que serão comparados.
 */
 
@@ -50,7 +51,7 @@ function treeNumbers() { // fonte: https://wagnergaspar.com/exercicio-1-como-enc
   }
 }
 
-/* Faça um programa que, dado um valor definido numa constante, retorne "positive" 
+/* 4. Faça um programa que, dado um valor definido numa constante, retorne "positive" 
 se esse valor for positivo, "negative" se for negativo e "zero" caso contrário
 PS: Documentacao da Mozilla me ajudou bastante aqui
 Fonte: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/sign
@@ -68,8 +69,93 @@ function positiveNegative () {
   }
 }
 
+/* 7. Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) 
+em conceitos de A a F
+*/
+
+function converterPls () {
+  let nota = 101;
+  let matSign = Math.sign(nota);
+
+  if (nota > 100) {
+    console.log('erro');      // nao foi uma das melhores solucoes, mas consegui. Coloquei em ordem. nota > 100 estava no final
+  } else if (nota >= 90) {
+    console.log('A');
+  }
+    else if (nota >= 80) {
+    console.log('B');
+  } else if (nota >= 70) {
+    console.log('C');
+  } else if (nota >= 60) {
+    console.log('D');
+  } else if (nota >= 50) {
+    console.log('E');
+  } else if (nota < 50 && nota >= 0) {
+    console.log('F');
+  } else if (nota < 0) {
+    console.log('erro');
+  }
+}
+
+/* 8. Escreva um programa que defina três números em constantes e retorne true 
+se pelo menos uma das três for par. Caso contrário, ele retorna false . 
+*/
+
+function isPair () {
+  const a = 9;
+  const b = 5;
+  const c = 3;
+  
+  // if (a % 2 === 0) {
+  //   console.log('true');
+  // } else if (b % 2 === 0) {
+  //   console.log('true');
+  // } else if (c % 2 === 0) {
+  //   console.log('true');
+  // } else {
+  //   console.log('false');
+  // }
+
+  // Bonus: use somente um if
+  if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+}
+
+/*9. Escreva um programa que defina três números em constantes e retorne true 
+se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+*/
+function isEven () {
+  let a = 10;
+  let b = 44;
+  let c = 22;
+
+  // if (a % 3 === 0) {
+  //   console.log('true');
+  // } else if (b % 3 === 0) {
+  //   console.log('true');
+  // } else if (c % 3 === 0) {
+  //   console.log('true');
+  // } else {
+  //   console.log('false');
+  // }
+
+  // Bonus: use somente um if 
+  if (a % 3 === 0 || b % 3 === 0 || c % 3 === 0) {
+    console.log ('true');
+  } else {
+    console.log('false');
+  }
+} 
+
 operators();
 greaterThen();
 treeNumbers();
 console.log("Programa Positive-Negativo-Zero!!!");
 positiveNegative();
+console.log("Conventer notas em letras: ")
+converterPls();
+isPair();
+isEven();
