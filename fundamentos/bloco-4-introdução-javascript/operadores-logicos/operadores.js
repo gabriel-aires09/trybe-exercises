@@ -31,3 +31,13 @@ if (bebidaPrincipal === 'cafezinho' || bebidaAlternativa === 'suco de laranja') 
 } else {
     console.log("Ei, eu nao pedi isso!");
 }
+
+// Operador Not
+const squirtle = 'melior pokemon...SQN';
+console.log(!squirtle);
+
+console.log(!42);
+console.log(!0);
+
+console.log(!null);
+console.log(!undefined);
