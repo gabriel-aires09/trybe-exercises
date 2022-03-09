@@ -38,5 +38,56 @@ function inverte () {
 	
 	console.log(teste);
 }
+
+/* 3. Escreva dois algoritmos: um que retorne a maior palavra deste 
+* array e outro que retorne a menor. Considere o número de caracteres 
+* de cada palavra.
+*/
+
+function arrayDosBrothers () {
+  let array = ['java', 'javascript', 'python', 'html', 'css'];
+  let word = array[0];
+  let newWord = array [0];
+
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index]. length > newWord.length){
+      newWord = array[index];
+    }
+  } console.log(newWord);
+
+  for (let index = 1; index < array.length; index += 1) {
+    if (word > array[index]) {
+     word = array[index];
+    } 
+ } console.log(word);
+  // for (let index = 1; index < array.length; index += 1) {
+  //   if (word < array[index]) {
+  //     word = array[index];
+  //     return console.log(word); minha implementacao que falhou :(
+  //   }
+  //} 
+}
+
+/*4. Um número primo é aquele divisível apenas por 1 e por ele mesmo. 
+ * Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50
+ * fonte: Gabarito trybe
+ */
+function primo () {
+  for (let currentNumber = 0; currentNumber <= 50; currentNumber += 1){
+    let isPrime = true;
+    for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+      if (currentNumber % currentDivisor === 0) {
+        isPrime = false;
+      }
+    }
+    if (isPrime) {
+      biggestPrimeNumber = currentNumber;
+    }
+  }
+  console.log(biggestPrimeNumber);
+}
+
 fatorial();
 inverte();
+arrayDosBrothers();
+primo();
