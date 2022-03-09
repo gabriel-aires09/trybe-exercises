@@ -25,15 +25,17 @@ function fatorial () {
 
 function inverte () {
 	let word = 'tryber';
+	let wordTwo = 'résumé';
 	let inverte = '';
 	for (let i = word.length -1; i >= 0; i -= 1){
 		inverte += word[i];
 	} console.log (inverte);
 	
 	/* Pode ser resolvido juntando algumas funcoes do
-	 * js
+	 * js. Mas, aparentemente, nao e a melhor solucao
 	 */
-	let teste = word.split('').reverse().join('');
+	let teste = wordTwo.split('').reverse().join('');
+	
 	console.log(teste);
 }
 fatorial();
